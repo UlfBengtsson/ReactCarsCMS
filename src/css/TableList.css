@@ -1,0 +1,15 @@
+#loadingData {
+    text-align: center;
+    color: black;
+    animation-name: colorSwing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes colorSwing {
+    0%   {color:red;}
+    25%  {color: orange;}
+    50%  {color:blue;}
+    75%  {color:green;}
+    100% {color:red;}
+  }
